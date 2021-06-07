@@ -1,7 +1,6 @@
 /*basic settings*/
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 body {
   font-family: 'Roboto Slab', serif; }
@@ -18,12 +17,8 @@ section {
   margin: 0 auto; }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
   .social a {
     width: 30px;
     margin: 0 10px;
@@ -40,6 +35,12 @@ section {
     line-height: 1.3;
     margin-top: 60px; }
 
+.name span {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 /** <section class="portfolio"> **/
 .filters {
   text-align: center; }
@@ -54,15 +55,9 @@ section {
   color: #f00; }
 
 .products {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-flow: row-reverse wrap-reverse;
-          flex-flow: row-reverse wrap-reverse; }
+  justify-content: space-around;
+  flex-flow: row-reverse wrap-reverse; }
   .products li {
     max-width: 350px;
     margin: 60px 20px 0; }
@@ -86,15 +81,9 @@ section {
       left: 0;
       width: 100%;
       height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      justify-content: center;
+      align-items: center;
       opacity: 0; }
       .products-overlay__description:hover {
         opacity: 1; }
@@ -104,11 +93,8 @@ section {
         font-size: 22px;
         line-height: 1.3; }
   .products__buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin-top: 20px; }
   .products__btn {
     font-size: 13px;
