@@ -28,7 +28,7 @@ section {
 .header {
   background: url(../img/header/header-bg.jpg) center no-repeat;
   background-size: cover;
-  padding: 30px 0 7%; }
+  padding: 30px 0 5%; }
   .header__title {
     font-size: 50px;
     text-align: center;
